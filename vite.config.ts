@@ -10,4 +10,5 @@ export default defineConfig({
       },
     }),
   ],
+  base: 'https://perdomofranklindev.github.io/pinely-devmatch'
 })
