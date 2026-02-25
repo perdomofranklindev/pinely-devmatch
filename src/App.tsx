@@ -67,7 +67,7 @@ function App() {
 
   useEffect(() => {
     if (isRunning) {
-      timerRef.current = window.setInterval(step, 500);
+      timerRef.current = window.setInterval(step, 1000);
     } else {
       if (timerRef.current) clearInterval(timerRef.current);
     }

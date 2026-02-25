@@ -60,6 +60,7 @@ export class GameOfLife {
 
 
     evolve() {
+        this.nextState = new Matrix(this.state.length, this.state[0].length);
 
         for (let i = 0; i < this.state.length; i++) {
             for (let j = 0; j < this.state[i].length; j++) {
